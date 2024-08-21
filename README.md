@@ -48,7 +48,7 @@ Prepend the DynamicISS/dynamiciss_v1.0.2 directory to your $PATH. This will allo
   - --cores:set max cores the pipeline may request at one time.;default 20
  
 
-## Hardware Requirements  
+### Hardware Requirements  
   
 - **CPU**: A minimum of 16 physical cores.
 - **Memory (RAM)**: A minimum of 256GB. Higher memory configurations will improve operational efficiency and performance, especially when processing large datasets or performing complex calculations.  
