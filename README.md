@@ -3,7 +3,7 @@ DynamicISS is an on-instrument software pipeline that simultaneously collects an
 
 
 ## Install DynamicISS 1.0.2
-Dowload DynamicST from [here](https://github.com/DynamicBiosystems/DynamicISS/releases/tag/dynamiciss-v1.0.2).
+Dowload DynamicISS from [here](https://github.com/DynamicBiosystems/DynamicISS/releases/tag/dynamiciss-v1.0.2).
 
 ```shell
 # download dynamiciss_v1.0.2.tar.gz
