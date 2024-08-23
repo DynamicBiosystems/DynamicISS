@@ -36,7 +36,14 @@
     Y5:A FAM:T TXR:C Y3:G
 
 ### Format requirements for images
-    It can be a TIFF image in RGB or grayscale format, but it must be an 8-bit bitmap
+    The image can be in TIFF format and may be either RGB or grayscale, but it must be an 8-bit bitmap.
 
 ### Barcode file format requirements
-    Special characters such as/, spaces, etc. are not allowed in barcode files and can be replaced with underscores
+    When creating barcode files, it is imperative to adhere to certain formatting standards to ensure compatibility and accuracy. Special characters, such as slashes (/) and spaces, 
+    are disallowed due to their potential to disrupt the file's integrity or cause parsing errors. 
+    To address this, these characters should be systematically substituted with underscores, which serve as a universally recognized placeholder that maintains the file's structural integrity.
+    The file should be formatted with the barcode sequence in the first column and the gene name in the second column, without a header.
+    For instance, a typical entry in this file might appear as follows:
+        ATCG    Gene1Name1_Gene1Name2
+        ACGC    Gene2Name
+        ATCC    Gene3Name
