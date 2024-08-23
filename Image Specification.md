@@ -1,4 +1,4 @@
-## Data storage directory structure
+### Data storage directory structure
 ```
 .
 |—— 1
@@ -38,5 +38,5 @@
 ### Format requirements for images
     It can be a TIFF image in RGB or grayscale format, but it must be an 8-bit bitmap
 
-## Barcode file format requirements
+### Barcode file format requirements
     Special characters such as/, spaces, etc. are not allowed in barcode files and can be replaced with underscores
