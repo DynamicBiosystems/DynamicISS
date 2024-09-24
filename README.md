@@ -23,22 +23,20 @@ Prepend the DynamicISS/dynamiciss_v1.0.2 directory to your $PATH. This will allo
 
 ---
 - count
-  - `--ImagePath`: Image Path,required
-  - `--bcycles`: Barcode Cycles,required
-  - `--refcycle`: Reference Cycle,required
+  - `--ImagePath`: Image Path, required
+  - `--bcycles`: Sequencing rounds, required
+  - `--refcycle`: Sequencing rounds used as reference images,we will use the sequencing images from this round as a benchmark to register the images from other rounds. required
   - `--barcode`: Barcode2gene File,required
   - `--sample`: Sample name,required
-  - `--search-radius`: For the checkall,the size of the search radius,defualt:3.5
-  - `--rd`: Dapi for other paths that are not in the rounds,default:None
-  - `--model`: Cell segmentation model of Cellpose
+  - `--rd`: The reference DAPI image path, when performing batch sequencing, in order to unify the coordinate system of different batches, it is necessary to specify a unified reference DAPI image for image registration, which conflicts with `--bcycles`,default:None
+  - `--model`: Cell segmentation model of Cellpose,just need to fill in the corresponding model name, which can be found in the model directory under the software installation directory,default CP_20220919_134014
   - `--resolution`: Physical resolution corresponding to pixels(um/pixel),default:20X:0.324;40X:0.162
   - `--expansion`: Expansion of nuclei boundaries(um);default 10
   - `--diameter`: Cell diameter, if 0 will use the diameter of the training labels used in the model, 
                   or with built-in model will estimate diameter for each image,default:0
   - `--output`: Output Path,default:./output
-  - `--prefix`: Sample name prefix,default:sample
-  - `--splitsize`: Image Segmentation Size (pixel),default:2000
-  - `--extend`: Image Segmentation Extend Size (pixel),default:15
+  - `--splitsize`: When cutting a large image into small images, the pixel size of the small image,default:2000
+  - `--extend`: Overlap pixel size between small images,default:15
   - `--cores`: Set max cores the pipeline may request at one time.;default 20
 
 
@@ -60,7 +58,7 @@ Prepend the DynamicISS/dynamiciss_v1.0.2 directory to your $PATH. This will allo
  --refcycle 1 \
  --barcode barcode2gene.txt \
  --sample sample1 \
- --model model/CP_20220919_134014 \
+ --model CP_20220919_134014 \
  --resolution 0.324 
 ```
 
