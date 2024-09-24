@@ -41,7 +41,18 @@ Prepend the DynamicISS/dynamiciss_v1.0.2 directory to your $PATH. This will allo
   - `--extend`: Image Segmentation Extend Size (pixel),default:15
   - `--cores`: Set max cores the pipeline may request at one time.;default 20
 
-#### Quick start
+
+
+### Hardware Requirements  
+---
+- **CPU**: A minimum of 16 physical cores.
+- **Memory (RAM)**: A minimum of 256GB. Higher memory configurations will improve operational efficiency and performance, especially when processing large datasets or performing complex calculations.  
+- **Storage**: At least 1TB of available storage space.
+
+
+
+### Quick start
+---
 ```shell
  DynamicISS count \
  --ImagePath ./raw \
@@ -53,10 +64,10 @@ Prepend the DynamicISS/dynamiciss_v1.0.2 directory to your $PATH. This will allo
  --resolution 0.324 
 ```
 
+### About
 
-### Hardware Requirements  
-  
-- **CPU**: A minimum of 16 physical cores.
-- **Memory (RAM)**: A minimum of 256GB. Higher memory configurations will improve operational efficiency and performance, especially when processing large datasets or performing complex calculations.  
-- **Storage**: At least 1TB of available storage space. 
+---
+
+DynamicISS is developed by dynamic-biosystems Co., Ltd. The official website is [www.dynamic-biosystems](http://www.dynamic-biosystems.com/).
+
 
