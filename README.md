@@ -63,7 +63,8 @@ Prepend the DynamicISS/dynamiciss_v1.0.2 directory to your $PATH. This will allo
 ```
 
 ### Result file introduction
-![outs](https://github.com/DynamicBiosystems/inSituFocus/blob/main/inSituFocus.png)
+---
+![outs](https://github.com/DynamicBiosystems/DynamicISS/blob/main/outs.png)
 ### About
 
 ---
