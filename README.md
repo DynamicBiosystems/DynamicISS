@@ -40,7 +40,19 @@ Prepend the DynamicISS/dynamiciss_v1.0.2 directory to your $PATH. This will allo
   - `--splitsize`: Image Segmentation Size (pixel),default:2000
   - `--extend`: Image Segmentation Extend Size (pixel),default:15
   - `--cores`: Set max cores the pipeline may request at one time.;default 20
- 
+
+#### Quick start
+    ```shell
+    DynamicISS count \
+    --ImagePath ./raw \
+    --bcycles 1,2,3,4 \
+    --refcycle 1 \
+    --barcode barcode.txt \
+    --sample sample1 \
+    --model model/CP_20220919_134014 \
+    --resolution 0.324 \
+    ```
+
 
 ### Hardware Requirements  
   
