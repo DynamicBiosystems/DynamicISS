@@ -62,6 +62,8 @@ Prepend the DynamicISS/dynamiciss_v1.0.2 directory to your $PATH. This will allo
  --resolution 0.324 
 ```
 
+### Result file introduction
+![outs](https://github.com/DynamicBiosystems/inSituFocus/blob/main/inSituFocus.png)
 ### About
 
 ---
