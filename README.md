@@ -60,9 +60,9 @@ Prepend the DynamicISS/dynamiciss_v1.0.3 directory to your $PATH. This will allo
 ```
 
 ### Understanding DynamicISS Outputs
-
-#### The `/outs` directory contains all the output files.
 ---
+#### The `/outs` directory contains all the output files.
+
 ```shell
 ├── analysis
 │   └── cluster.csv
