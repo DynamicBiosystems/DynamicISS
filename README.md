@@ -3,7 +3,7 @@ DynamicISS is a command-line tool developed by DynamicBiosystems designed for pr
 
 
 ## Install DynamicISS 1.0.3
-Dowload DynamicISS from [here](https://github.com/DynamicBiosystems/DynamicISS/releases/tag/dynamiciss-v1.0.3).
+Dowload DynamicISS from [here](https://github.com/DynamicBiosystems/DynamicISS/releases/tag/v1.0.3).
 
 ```shell
 # download dynamiciss_v1.0.3.tar.gz
