@@ -60,8 +60,37 @@ Prepend the DynamicISS/dynamiciss_v1.0.3 directory to your $PATH. This will allo
 ```
 
 ### Understanding DynamicISS Outputs
+
+#### The `/outs` directory contains all the output files.
 ---
-![outs](https://github.com/DynamicBiosystems/DynamicISS/blob/main/outs.png)
+```shell
+├── analysis
+│   └── cluster.csv
+├── insitufocus_lowres
+│   ├── Cells.geojson
+│   ├── DAPI.tif
+│   ├── GeneCoord.csv
+│   ├── nucleus_boundaries.geojson
+│   └── seerna_iss.insitufocus
+├── cell_feature_matrix
+│   ├── barcodes.tsv.gz
+│   ├── features.tsv.gz
+│   └── matrix.mtx.gz
+├── cell_feature_matrix.h5
+├── cells.csv.gz
+├── cells.parquet
+├── DAPI.tif
+├── Cells.geojson
+├── GeneCoord.csv
+├── nucleus_boundaries.geojson
+├── seerna_iss.insitufocus
+├── metrics_summary.csv
+├── cells.mask.tif
+├── nuclei.mask.tif
+├── transcripts.csv.gz
+├── transcripts.parquet
+└── web_summary.html
+```
 |  File or Directory Name  |  Description  |
 |  :--------: |  :-----:  |
 |    analysis/   |   Folder containing secondary analysis data including graph-based clustering ; differential gene expression between clusters; UMAP dimensionality reduction.   |
