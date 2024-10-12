@@ -25,7 +25,7 @@ Prepend the DynamicISS/dynamiciss_v1.0.3 directory to your $PATH. This will allo
   - `--refcycle`: Sequencing rounds used as reference images,we will use the sequencing images from this round as a benchmark to register the images from other rounds. required
   - `--barcode`: Barcode2gene File,required
   - `--sample`: Sample name,required
-  - `--rd`: The reference DAPI image path, when performing batch sequencing, in order to unify the coordinate system of different batches, it is necessary to specify a unified reference DAPI image for image registration, which conflicts with `--bcycles`,default:None
+  - `--rd`: The reference DAPI image path, when performing batch sequencing, in order to unify the coordinate system of different batches, it is necessary to specify a unified reference DAPI image for image registration, which conflicts with `--refcycle`,default:None
   - `--model`: Cell segmentation model of Cellpose,just need to fill in the corresponding model name, which can be found in the model directory under the software installation directory,default CP_20220919_134014
   - `--resolution`: Physical resolution corresponding to pixels(um/pixel),default:20X:0.324;40X:0.162
   - `--expansion`: Expansion of nuclei boundaries(um);default 10
