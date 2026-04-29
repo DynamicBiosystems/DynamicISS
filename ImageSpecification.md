@@ -31,7 +31,7 @@
     |_ _
 ```
 ### Correspondence between sequencing rounds and directory
-    L2:1 L1:2 R1:3 R2:4
+    R1:1 R2:2 R3:3 R4:4 R5:5
 ### Correspondence between channels and bases
     Y5:A FAM:T TXR:C Y3:G
 
